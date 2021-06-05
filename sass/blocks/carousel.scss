@@ -1,0 +1,21 @@
+.carousel-caption p {
+	color: $white;
+}
+
+#slider img {
+	object-fit: cover;
+	
+	object-position: center;
+}
+
+.carousel-item a {
+	display: flex;
+}
+
+@media (min-width: 1024px) {
+
+    #slider .carousel-caption p {
+    	font-size: 17px;
+    }	
+}
+

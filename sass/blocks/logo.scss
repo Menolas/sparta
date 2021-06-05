@@ -1,0 +1,20 @@
+.logo {
+	padding: 0;
+	max-width: unset;
+	width: unset;
+}
+
+.logo a {
+	@include link-style;
+}
+
+.logo img {
+	width: 180px;
+}
+
+@media (min-width: 1024px) {
+
+	.logo img {
+		width: 200px;
+	}
+}

@@ -1,0 +1,54 @@
+.entry-content .alignnone {
+	margin: 32px 0;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.entry-content ol {
+	list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+.entry-content ol li {
+    counter-increment: my-awesome-counter;
+    margin-bottom: 16px;
+}
+
+.entry-content ol li::before {
+  content: counter(my-awesome-counter);
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  line-height: 2;
+  color: $orange;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.entry-content h2 {
+	color: $gray;
+	font-size: 18px;
+}
+
+.entry-content h3 {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+
+	.entry-content ol li::before {
+		font-size: 21px;
+	}
+
+	.entry-content h2 {
+		font-size: 22px;
+	}
+
+	.entry-content h3 {
+		font-size: 20px;
+	}
+}

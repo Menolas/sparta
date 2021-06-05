@@ -1,0 +1,29 @@
+body {
+	color: $text-color;
+	font-size: 14px;
+}
+
+body p {
+	color: $text-color;
+	font-size: 14px;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+	color: $text-color;
+}
+
+@media (min-width: 1024px) {
+
+	body {
+		font-size: 16px;
+	}
+
+	body p {
+		font-size: 16px;
+	}
+}

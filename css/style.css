@@ -1,0 +1,132 @@
+body {
+  color: #333333;
+  font-size: 14px; }
+
+body p {
+  color: #333333;
+  font-size: 14px; }
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  color: #333333; }
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 16px; }
+  body p {
+    font-size: 16px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 100%; } }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: unset;
+    width: 1200px; } }
+
+.logo {
+  padding: 0;
+  max-width: unset;
+  width: unset; }
+
+.logo a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit; }
+
+.logo img {
+  width: 180px; }
+
+@media (min-width: 1024px) {
+  .logo img {
+    width: 200px; } }
+
+.entry-content .alignnone {
+  margin: 32px 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: center; }
+
+.entry-content ol {
+  list-style: none;
+  counter-reset: my-awesome-counter; }
+
+.entry-content ol li {
+  counter-increment: my-awesome-counter;
+  margin-bottom: 16px; }
+
+.entry-content ol li::before {
+  content: counter(my-awesome-counter);
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  line-height: 2;
+  color: #f36109;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 10px; }
+
+.entry-content h2 {
+  color: #676767;
+  font-size: 18px; }
+
+.entry-content h3 {
+  font-size: 16px;
+  font-weight: 600; }
+
+@media (min-width: 1024px) {
+  .entry-content ol li::before {
+    font-size: 21px; }
+  .entry-content h2 {
+    font-size: 22px; }
+  .entry-content h3 {
+    font-size: 20px; } }
+
+.middle-header {
+  padding: 12px 0; }
+
+.middle-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.main-menu-navigation ul {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.socialbox {
+  flex: unset;
+  max-width: unset;
+  margin-left: 40px; }
+
+.top_headbar .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+.top-contact .mail {
+  display: inline-block;
+  margin-left: 25px; }
+
+.carousel-caption p {
+  color: #ffffff; }
+
+#slider img {
+  object-fit: cover;
+  object-position: center; }
+
+.carousel-item a {
+  display: flex; }
+
+@media (min-width: 1024px) {
+  #slider .carousel-caption p {
+    font-size: 17px; } }
+
+/*# sourceMappingURL=style.css.map */
